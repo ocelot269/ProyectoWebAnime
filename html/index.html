@@ -9,7 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>AnimeWar</title>
+    <style type="text/css">
+
+
+  </style>
   </head>
   <body>
     <!--NavBar-->
@@ -18,24 +22,31 @@
                 <img src="../images/luffibarwar.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"><img src="../images/menu.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <a class="navbar-brand" href="#">AnimeWar</a>
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger">Inicio</button>
+                  </button>
+                  <button type="button" class="btn btn-dark">Series</button>
+                  <div class="btn-group dropright">
+                    <button type="button" class="btn btn-danger">
+                      Otros
+                    </button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Otros</a>
+                    <a class="dropdown-item" href="#">Alguna Opción</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Link</a>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Utilízame" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
               </form>
             </div>
           </nav>
