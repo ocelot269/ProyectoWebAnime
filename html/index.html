@@ -11,47 +11,139 @@
 
     <title>AnimeWar</title>
     <style type="text/css">
-
+    body {
+      background-image: url(http://www.comicgeekos.com/blog/wp-content/uploads/2019/03/isekai-quartet-anime.jpeg);
+    }
+    footer {
+      background-color:#2F3235; 
+      color: aliceblue;
+      position: fixed;
+      bottom: 0;
+      width:100%;
+    }
+    #copyright{
+      background-color:#212529;
+    }
+    #contenido-footer{
+      text-align: center;
+    }
 
   </style>
   </head>
   <body>
-    <!--NavBar-->
-        <nav class="navbar navbar-expand-lg navbar-blue bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="../images/luffibarwar.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><img src="../images/menu.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">AnimeWar</a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-danger">Inicio</button>
-                  </button>
-                  <button type="button" class="btn btn-dark">Series</button>
-                  <div class="btn-group dropright">
-                    <button type="button" class="btn btn-danger">
-                      Otros
-                    </button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span class="sr-only">Toggle Dropright</span>
-                    </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Otros</a>
-                    <a class="dropdown-item" href="#">Alguna Opción</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Link</a>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Utilízame" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busqueda</button>
-              </form>
-            </div>
-          </nav>
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+              <img src="../images/luffibarwar.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../html/index.html">INICIO<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Otra pestaña</a>
+              </li>
+              <li class="btn-group dropright">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SERIES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Shōnen</a>
+                  <a class="dropdown-item" href="#">Seinen</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Los demas</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="busca tu serie" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
     <h1>Hello, world!</h1>
 
+
+
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3" id="contenido-footer">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Contenido</h5>
+          <p>Esta web es un proyecto de webAnime.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Paginas Asociadas</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://animeflv.net/">animeflv</a>
+              </li>
+              <li>
+                <a href="https://jkanime.net/">jkanime</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Colaboradores</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="../images/pikucharizar.jpg">yo</a>
+              </li>
+              <li>
+                <a href="../images/detective-pikachu.jpg">yo_mismo</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="copyright">© 2018 Copyright:
+      <a href="#">IES FRANCESC BORJA MOLL</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
