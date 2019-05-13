@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="../images/gokuFavicon.png">
 
     <title>AnimeWar</title>
+  
   </head>
   <body>
 
@@ -33,14 +34,14 @@
                 <a class="nav-link" href="../html/index.html">INICIO<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="formulario.html">FORMULARIO ANIME</a>
+                <a class="nav-link" href="#">FORMULARIO ANIME</a>
               </li>
               <li class="btn-group dropright">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   SERIES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="shonen.html">Shōnen</a>
+                  <a class="dropdown-item" href="#">Shōnen</a>
                   <a class="dropdown-item" href="#">Seinen</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Los demas</a>
@@ -54,10 +55,49 @@
           </div>
         </nav>
 
-        <!-- imagen -->
-        <img src="../images/blackClover.png" class="img-fluid" alt="blackClover">
+        <!-- formulario -->
+        <form id="formulario">
 
+          <h1>Formulario Anime</h1>
 
+          <br>
+
+          <div class="form-group" action="index.html">
+            <label for="exampleFormControlInput1">Correo Electronico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="TuCorreo@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Cuantos animes ves al dia</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Que tipo de anime te gusta</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Shōnen</option>
+              <option>Ecchi</option>
+              <option>Moé</option>
+              <option>Harem</option>
+              <option>Yaoi</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Que es lo que mas te gusta del anime</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+            <div class="container-fluid" id="botonesFormulario">
+            <!-- Botón de envio de formulario -->
+           <a href="index.html"><button id="myButton" type="button" >Enviar Formulario</button></a>
+            <!-- Botón de reseteo de formulario -->
+            <input type="reset" value="Borrar formulario">
+            </div>
+          <br>
+        </form>
 
 
 

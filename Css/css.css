@@ -5,8 +5,9 @@
     footer {
       background-color:#2F3235; 
       color: aliceblue;
-      bottom: 0;
+      bottom: 0px;
       width:100%;
+
     }
     #copyright{
       background-color:#212529;
@@ -14,3 +15,17 @@
     #contenido-footer{
       text-align: center;
     }
+
+
+    #formulario{
+      background-color: #036CBC;
+      color: black;
+    }
+
+    #formulario h1{
+      text-align: center;
+    }
+    #botonesFormulario{
+      text-align: center;
+    }
+    
