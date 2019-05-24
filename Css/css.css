@@ -1,13 +1,17 @@
     #imagenNav{
         width: 100%;
     }
+
+    body {
+      background-image: url(../images/142182.jpg);
+    }
     
     footer {
       background-color:#2F3235; 
       color: aliceblue;
       bottom: 0px;
       width:100%;
-
+      
     }
     #copyright{
       background-color:#212529;
@@ -16,10 +20,21 @@
       text-align: center;
     }
 
-
+    #div_formulario{
+      background: #212529;
+      margin-left:120px;
+      margin-right:120px;
+    }
+    @media only screen and (max-width: 768px) {
+        #div_formulario{
+          margin-left:0px  !important;
+          margin-right:0px !important;
+        }
+      }
+  
     #formulario{
-      background-color: #036CBC;
-      color: black;
+      background-color: #212529;
+      color: white;
     }
 
     #formulario h1{
@@ -28,4 +43,54 @@
     #botonesFormulario{
       text-align: center;
     }
-    
+
+    #divImagen{
+      background: white;
+    }
+
+    #home-tab:hover{
+      background-color: black !important;
+      color: white !important;
+    }
+    #profile-tab:hover{
+      background-color: black !important;
+      color: white !important;
+    }
+    #messages-tab:hover{
+      background-color: black !important;
+      color: white !important;
+    }
+    #settings-tab:hover{
+      background-color: black !important;
+      color: white !important;
+    }
+
+    #info h1{
+      font-size: 3;
+      background-color:#bb1919;
+      color: white;
+      text-align: center;
+    }
+
+    @media (max-width: 767px) {
+      #info h1 { font-size: 1em;; 
+       }
+      }
+
+
+      @media only screen and (min-height: 1000px) {
+        footer{
+          bottom: 0px;
+          position:fixed;
+        }
+      }
+
+      #titulo_shonen h1{
+        color: antiquewhite;
+      
+      }
+
+      table {
+        text-align: center;
+      }
+      

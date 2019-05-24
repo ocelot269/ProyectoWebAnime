@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/css.css">
     <link rel="icon" type="image/png" href="../images/gokuFavicon.png">
+ 
     <title>AnimeWar</title>
   </head>
   <body>
 
     <div id="imagenNav">
-    <img src="http://i.imgur.com/m3IzkN2.jpg" class="img-fluid" alt="Hero"; >
+    <img src="../images/imagen navbar.jpg" class="img-fluid" alt="Hero"; >
   </div>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,8 +40,8 @@
                   SERIES
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="shonen.html">Shōnen</a>
-                  <a class="dropdown-item" href="#">Seinen</a>
+                  <a class="dropdown-item" href="../html/shonen.html">Shōnen</a>
+                  <a class="dropdown-item" href="../html/seinen.html">Seinen</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Los demas</a>
                 </div>
@@ -52,36 +53,37 @@
             </form>
           </div>
         </nav>
+        <br>
 
-        <!-- imagen -->
-        <div class="col-8 offset-2" >
+        <!-- Pestañas -->
+        <div class="col-lg-auto col-md-auto col-sm-auto col-xl-auto" id="id_tabs">
             <br>
+            
 
           <div id="divImagen">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Top Anime</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Video</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+              <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Info</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
-            </li>
+
           </ul>
-          
+          <!-- Inicio Tabla-->
           <div class="tab-content table-responsive">
             <div class="tab-pane active " id="home" role="tabpanel" aria-labelledby="home-tab">
-                <table class="table table-striped table-bordered table-hover ">
+                <table class="table table-striped table-bordered table-hover">
                     <thead class="thead-dark">
                       <tr>
                         <th scope="col">Top 3 animes</th>
                         <th scope="col">Ecchi</th>
                         <th scope="col">Shōnen</th>
                         <th scope="col">Seinen</th>
+
                       </tr>
                     </thead>
                     <tbody>
@@ -89,13 +91,17 @@
                         <th scope="row">1</th>
                         <td>Highschool DxD</td>
                         <td>Naruto</td>
-                        <td>Death Note</td>
+                        <td>Nanatsu no Taizai</td>
+ 
+                        
                       </tr>
                       <tr>
                         <th scope="row">2</th>
                         <td>To Love Ru</td>
                         <td>One Piece</td>
                         <td>Elfen Lied</td>
+
+                        
                       </tr>
                       <tr>
                         <th scope="row">3</th>
@@ -103,30 +109,47 @@
                         <td>Shingeki No Kyojin</td>
                         <td>Another</td>
                       </tr>
+                      <tr>
+                          <th scope="row">4</th>
+                          <td>KissXSis</td>
+                          <td>Inuyasha</td>
+                          <td>Golden Time</td>
+                        </tr>
                     </tbody>
                   </table>
-               <div class=" col-6 offset-3 ">
+               <div class=" col-7 offset-3 ">
                  <img src="../images/dragonballsuperbroly.jpg" class="img-fluid" alt="imagen anime">
                  <br><br>
                </div>   
             </div>
             <!--Final table-->
-            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">fffsafafasf</div>
-            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-            <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
+            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <!--video-->
+              <div class="embed-responsive embed-responsive-16by9">
+                  <video width="320" height="240" controls autoplay>
+                      <source src="../videos/「ＡＭＶ」Anime Mix- Murder Melody.mp4" type="video/mp4">
+                    </video>
+                    
+              </div>
+             </div>
+            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+              <!--info-->
+              <div class="col-auto"id="info">
+                <br>
+                <h1> Sobre los visitantes</h1>
+                <p>Si visitas animeWar debes de saber que el sitio dispone de distintos servicios, informacion y material, el uso que le des a los mismos no corre bajo responsabilidad de los administradores ni de la web en si, sin embargo, algunas de nuestras funciones no pueden ser usadas de una manera incorrecta.
+                    <br><br>                                                                                                                                                                                                                                                                                                                                                    
+                    1.- Al publicar un comentario este no puede contener ningun tipo de spam, si publicas en tu comentario una imagen esta no puede ser sobre actos sexuales explicitos o que incite al odio.
+                    <br><br>
+                    2.- Si publicas una enlace hacia una pagina en especifica de forma frecuente o masiva sera censurada de AnimeWar y se te negara alguna futura afiliación.</p>
+              </div>
+            </div>
           </div>
         </div>
         <br>
         </div>
-        <br>
+
         <!-- final tacs-->
-
-        
-        
-
-      <!-- col offset columnas vacias-->
-
-
 
     <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
