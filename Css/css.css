@@ -1,3 +1,5 @@
+/* Comun en todas las paginas*/
+
     #imagenNav{
         width: 100%;
     }
@@ -13,12 +15,24 @@
       width:100%;
       
     }
+   
     #copyright{
       background-color:#212529;
     }
+
+
     #contenido-footer{
       text-align: center;
     }
+
+    @media only screen and (min-height: 1000px) {
+      footer{
+        bottom: 0px;
+        position:fixed;
+      }
+    }
+
+  /* Formulario */
 
     #div_formulario{
       background: #212529;
@@ -44,6 +58,7 @@
       text-align: center;
     }
 
+    /* Index.html */
     #divImagen{
       background: white;
     }
@@ -66,9 +81,13 @@
     }
 
     #info h1{
-      font-size: 3;
+      font-size: 1em;
       background-color:#bb1919;
       color: white;
+      text-align: center;
+    }
+
+    table {
       text-align: center;
     }
 
@@ -77,20 +96,13 @@
        }
       }
 
-
-      @media only screen and (min-height: 1000px) {
-        footer{
-          bottom: 0px;
-          position:fixed;
-        }
-      }
+    /* shonen y seinen*/
+    
 
       #titulo_shonen h1{
         color: antiquewhite;
       
       }
 
-      table {
-        text-align: center;
-      }
+      
       

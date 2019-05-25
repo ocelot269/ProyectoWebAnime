@@ -15,11 +15,11 @@
   
   </head>
   <body>
-
+    <!--Imagen-->
     <div id="imagenNav">
-    <img src="http://i.imgur.com/m3IzkN2.jpg" class="img-fluid" alt="Hero"; >
+    <img src="../images/imagen_navbar.jpg" class="img-fluid" alt="Hero" >
   </div>
-
+    <!--Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">
               <img src="../images/luffibarwar.png" width="30" height="30" class="d-inline-block align-top" alt="animeWar">
@@ -43,8 +43,9 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="shonen.html">Shōnen</a>
                   <a class="dropdown-item" href="../html/seinen.html">Seinen</a>
+                  <!--Desplegable-->
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Los demas</a>
+                  <a class="dropdown-item" href="#">Los demás</a>
                 </div>
               </li>
             </ul>
@@ -54,6 +55,7 @@
             </form>
           </div>
         </nav>
+        <!--Fin navbar-->
 
         <!-- formulario -->
         
@@ -65,7 +67,7 @@
           <br>
           <div class="row"  id="div_formulario">
               
-          <div class="form-group col-md-6 mb-3" action="index.html">
+          <div class="form-group col-md-6 mb-3">
             <label for="exampleFormControlInput1">Correo Electronico</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="TuCorreo@gmail.com">
           </div>
@@ -92,25 +94,26 @@
           </div>
           <div class="form-group col-md-6 mb-3">
             <label for="exampleFormControlTextarea1">Que es lo que mas te gusta del anime</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Me encanta el que me pase el tiempo volando mientras lo veo"></textarea>
           </div>
          
           <div class="form-group col-md-12 mb-3">
               <label for="exampleFormControlTextarea1">Anime favorito</label>
-              <textarea class="form-control" placeholder="Tokio ghoul,One piece"id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" placeholder="Tokio ghoul,One piece" id="exampleFormControlTextarea2" rows="3"></textarea>
           </div>
 
            
           <br>
           <div class="form-group col-md-12 mb-3">
               <label for="exampleFormControlTextarea1">Anime que esperas que se añadan en un futuro</label>
-              <textarea class="form-control" placeholder="Tokio ghoul,Naruto" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" placeholder="Tokio ghoul,Naruto" id="exampleFormControlTextarea3" rows="3"></textarea>
           </div>
           <br>
           </div>
           <div class="container-fluid" id="botonesFormulario">
               <!-- Botón de envio de formulario -->
-             <a href="index.html"><button id="myButton" type="button" >Enviar Formulario</button></a>
+             <button type="button" onclick = "location='../html/index.html '" >Enviar Formulario</button>
+             
               <!-- Botón de reseteo de formulario -->
               <input type="reset" value="Borrar formulario">
           </div>
