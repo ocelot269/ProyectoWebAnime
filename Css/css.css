@@ -25,6 +25,12 @@
       text-align: center;
     }
 
+    #Titulo {
+      background-color: antiquewhite;
+      text-align: center;
+      font-size: x-large;
+    }
+
     @media only screen and (min-height: 1000px) {
       footer{
         bottom: 0px;
